@@ -15,7 +15,7 @@ public class Circuit
 	private Balise depart;
 	private Balise arrivee;
 	
-	// Construction à partir d'un élément XML
+	// Construction a partir d'un element XML
 	public Circuit(Element element)
 	{
 		Element dateElem = element.getChild("date");
@@ -28,7 +28,7 @@ public class Circuit
 		}
 		catch(Exception e)
 		{
-			System.out.println("Le format de la date dans le fichier de spécif du raid est incorrect : "+e.getLocalizedMessage());
+			System.out.println("Le format de la date dans le fichier de specif du raid est incorrect : "+e.getLocalizedMessage());
 			e.printStackTrace();
 			System.exit(-1);
 		}
@@ -75,7 +75,7 @@ public class Circuit
 	{
 		if(!departEnMasse)
 		{
-			throw new IllegalArgumentException("Le circuit ne comporte pas de départ en masse.");
+			throw new IllegalArgumentException("Le circuit ne comporte pas de depart en masse.");
 		}
 		
 		double res = ((double)(date.getTime()-this.date.getTime()))/1000;

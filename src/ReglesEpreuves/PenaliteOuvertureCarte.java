@@ -16,7 +16,7 @@ public class PenaliteOuvertureCarte extends RegleEpreuve
 		Element malusElem = element.getChild("malus");
 		if(malusElem == null)
 		{
-			throw new IllegalArgumentException("Une pénalité doit être définie pour l'ouverture de la carte Roadbook !");
+			throw new IllegalArgumentException("Une penalite doit etre definie pour l'ouverture de la carte Roadbook !");
 		}
 		
 		malus = Double.parseDouble(malusElem.getText());
@@ -29,9 +29,9 @@ public class PenaliteOuvertureCarte extends RegleEpreuve
 		if(brut.carteOuverte())
 		{
 			resultat.addToMalus(malus);
-			this.logStatusRegle("La carte du roadbook a été ouverte, pénalité de "+AffichageDurees.heuresMinutesSecondes(malus));
+			this.logStatusRegle("La carte du roadbook a ete ouverte, penalite de "+AffichageDurees.heuresMinutesSecondes(malus));
 		}
-		this.logStatusRegle("La carte du roadbook n'a pas été ouverte, pas de pénalité");
+		this.logStatusRegle("La carte du roadbook n'a pas ete ouverte, pas de penalite");
 	}
 
 }

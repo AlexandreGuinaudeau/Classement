@@ -42,7 +42,7 @@ public class Epreuve
 			return new Briefing(circuit,elem);
 		}
 		
-		System.out.println("Type d'épreuve non supporté : "+name+" !");
+		System.out.println("Type d'epreuve non supporte : "+name+" !");
 		System.exit(-1);
 		return null;
 	}
@@ -52,7 +52,7 @@ public class Epreuve
 		
 	}
 	
-	// Construction à partir d'un élément XML
+	// Construction a partir d'un element XML
 	protected Epreuve(Circuit circuit, Element elem)
 	{
 		this.circuit = circuit;
@@ -89,12 +89,12 @@ public class Epreuve
 		
 		if(finish == null && !isArrivee)
 		{
-			throw new IllegalArgumentException("L'épreuve "+nom()+" ne comporte pas de balise arrivée");
+			throw new IllegalArgumentException("L'epreuve "+nom()+" ne comporte pas de balise arrivee");
 		}
 		
 		if(start == null && !departEnMasse)
 		{
-			throw new IllegalArgumentException("L'épreuve "+nom()+" ne comporte pas de balise départ, et ne correspond pas à un départ en masse");
+			throw new IllegalArgumentException("L'epreuve "+nom()+" ne comporte pas de balise depart, et ne correspond pas a un depart en masse");
 		}
 		
 		Element reglesParents = elem.getChild("regles");
@@ -186,13 +186,13 @@ public class Epreuve
 		if(start != null && pointageStart == null)
 		{
 			res = false;
-			logPointagesInvalides(brut.equipe(), "Balise départ "+start.numero()+" non pointée");
+			logPointagesInvalides(brut.equipe(), "Balise depart "+start.numero()+" non pointee");
 		}
 		
 		if(finish != null && pointageFinish == null)
 		{
 			res = false;
-			logPointagesInvalides(brut.equipe(), "Balise arrivée "+finish.numero()+" non pointée");
+			logPointagesInvalides(brut.equipe(), "Balise arrivee "+finish.numero()+" non pointee");
 		}
 		
 		if(pointageStart != null && pointageFinish != null)
@@ -200,7 +200,7 @@ public class Epreuve
 			if(pointageFinish.timeSince(pointageStart)<0)
 			{
 				res = false;
-				logPointagesInvalides(brut.equipe(), "La balise arrivée est pointée avant la balise départ");
+				logPointagesInvalides(brut.equipe(), "La balise arrivee est pointee avant la balise depart");
 			}
 		}
 		
@@ -224,14 +224,14 @@ public class Epreuve
 		
 		if(start == null && !this.departEnMasse)
 		{
-			this.logPointagesInvalides(brut.equipe(), "La balise de début d'épreuve n'a pas été pointée");
+			this.logPointagesInvalides(brut.equipe(), "La balise de debut d'epreuve n'a pas ete pointee");
 			
 			return 0;
 		}
 		
 		if(finish == null && !this.isArrivee)
 		{
-			this.logPointagesInvalides(brut.equipe(), "La balise de fin d'épreuve n'a pas été pointée");
+			this.logPointagesInvalides(brut.equipe(), "La balise de fin d'epreuve n'a pas ete pointee");
 			
 			return 0;
 		}
@@ -249,7 +249,7 @@ public class Epreuve
 		{
 			if(pointageFinish == null)
 			{
-				throw new RuntimeException("L'équipe "+brut.equipe().dossard()+" n'a pas pointé la balise arrivée pour l'épreuve "+this.nom());
+				throw new RuntimeException("L'equipe "+brut.equipe().dossard()+" n'a pas pointe la balise arrivee pour l'epreuve "+this.nom());
 			}
 			tempsReel = pointageFinish.timeSince(pointageStart);
 		}
@@ -268,7 +268,7 @@ public class Epreuve
 	
 	public void logPointagesInvalides(Equipe equipe, String detail)
 	{
-		ResultatEquipe.writeToLogFile("Pointages invalides de l'équipe n°"+equipe.dossard()+" sur l'épreuve "+this.nom+" : "+detail+"\n");
+		ResultatEquipe.writeToLogFile("Pointages invalides de l'equipe n�"+equipe.dossard()+" sur l'epreuve "+this.nom+" : "+detail+"\n");
 	}
 	
 	public int positionBalise(Balise balise)
@@ -281,7 +281,7 @@ public class Epreuve
 			}
 		}
 		
-		throw new IllegalArgumentException("La balise n°"+balise.numero()+" ne fait pas partie de l'épreuve "+this.nom());
+		throw new IllegalArgumentException("La balise n�"+balise.numero()+" ne fait pas partie de l'epreuve "+this.nom());
 	}
 	
 	public Balise start()

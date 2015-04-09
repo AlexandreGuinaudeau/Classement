@@ -115,7 +115,7 @@ public class SectionGrimpeur extends RegleEpreuve
 		
 		double temps = this.temps(brut);
 		
-		this.logStatusRegle("Temps réel de la "+this.epreuve.nom()+" : "+AffichageDurees.minutesSecondes(temps));
+		this.logStatusRegle("Temps reel de la "+this.epreuve.nom()+" : "+AffichageDurees.minutesSecondes(temps));
 		this.logStatusRegle("Multiplicateur : "+this.multiplicateur);
 		
 		double malus = (this.multiplicateur-1)*temps;
@@ -127,7 +127,7 @@ public class SectionGrimpeur extends RegleEpreuve
 			resultat.resultatEquipe().addToCumuleSpecialesDuJour(malus);
 		}
 		resultat.resultatEquipe().addToCumuleSpecialeTotal(malus);
-		this.logStatusRegle("Correction du temps réel de  "+this.epreuve.nom()+" : "+AffichageDurees.minutesSecondes((this.multiplicateur-1)*temps)+"\n");
+		this.logStatusRegle("Correction du temps reel de  "+this.epreuve.nom()+" : "+AffichageDurees.minutesSecondes((this.multiplicateur-1)*temps)+"\n");
 	}
 
 	public double multiplicateur()
@@ -144,7 +144,7 @@ public class SectionGrimpeur extends RegleEpreuve
 		
 		this.resultatSpeciale = resultat;
 		
-		if(ResultatSpeciale.SpecialeACalculer!=null && !this.epreuve.nom().equals("Spéciale "+ResultatSpeciale.SpecialeACalculer))
+		if(ResultatSpeciale.SpecialeACalculer!=null && !this.epreuve.nom().equals("Speciale "+ResultatSpeciale.SpecialeACalculer))
 		{
 			return;
 		}
@@ -153,7 +153,7 @@ public class SectionGrimpeur extends RegleEpreuve
 		
 		if(startPointage == null)
 		{
-			this.logStatusRegle("La balise de départ de la section "+epreuve.nom()+" n'a pas été pointée");
+			this.logStatusRegle("La balise de depart de la section "+epreuve.nom()+" n'a pas ete pointee");
 			resultat.setSuccessfullyCalculated(false);
 			
 			return;
@@ -163,7 +163,7 @@ public class SectionGrimpeur extends RegleEpreuve
 		
 		if(finishPointage == null)
 		{
-			this.logStatusRegle("La balise de fin de la section "+epreuve.nom()+" n'a pas été pointée");
+			this.logStatusRegle("La balise de fin de la section "+epreuve.nom()+" n'a pas ete pointee");
 			resultat.setSuccessfullyCalculated(false);
 			
 			return;
@@ -173,7 +173,7 @@ public class SectionGrimpeur extends RegleEpreuve
 		
 		if(temps<0)
 		{
-			this.logStatusRegle("La balise de fin de la section "+epreuve.nom()+" a été pointée avant la balise de départ.");
+			this.logStatusRegle("La balise de fin de la section "+epreuve.nom()+" a ete pointee avant la balise de depart.");
 			resultat.setSuccessfullyCalculated(false);
 			
 			return;
@@ -193,7 +193,7 @@ public class SectionGrimpeur extends RegleEpreuve
 			resultat.addToTempsTotal(temps);
 		}
 		
-		this.logStatusRegle("Durée de la spéciale : "+AffichageDurees.minutesSecondes(temps)+" Temps du vainqueur : "+AffichageDurees.minutesSecondes(this.tempsVainqueur));
+		this.logStatusRegle("Duree de la speciale : "+AffichageDurees.minutesSecondes(temps)+" Temps du vainqueur : "+AffichageDurees.minutesSecondes(this.tempsVainqueur));
 		
 		resultat.addToCoeff(temps/this.tempsVainqueur);
 	}
@@ -204,8 +204,8 @@ public class SectionGrimpeur extends RegleEpreuve
 		
 		if(startPointage == null)
 		{
-			this.logStatusRegle("La balise de départ de la section "+epreuve.nom()+" n'a pas été pointée");
-			this.logStatusRegle("Pénalité de "+AffichageDurees.minutesSecondes(this.tempsDernier+900));
+			this.logStatusRegle("La balise de depart de la section "+epreuve.nom()+" n'a pas ete pointee");
+			this.logStatusRegle("Penalite de "+AffichageDurees.minutesSecondes(this.tempsDernier+900));
 			
 			return this.tempsDernier+900;
 		}
@@ -214,8 +214,8 @@ public class SectionGrimpeur extends RegleEpreuve
 		
 		if(finishPointage == null)
 		{
-			this.logStatusRegle("La balise de fin de la section "+epreuve.nom()+" n'a pas été pointée");
-			this.logStatusRegle("Pénalité de "+AffichageDurees.minutesSecondes(this.tempsDernier+900));
+			this.logStatusRegle("La balise de fin de la section "+epreuve.nom()+" n'a pas ete pointee");
+			this.logStatusRegle("Penalite de "+AffichageDurees.minutesSecondes(this.tempsDernier+900));
 			
 			return this.tempsDernier+900;
 		}
@@ -224,8 +224,8 @@ public class SectionGrimpeur extends RegleEpreuve
 		
 		if(temps<0)
 		{
-			this.logStatusRegle("La balise de fin de la section "+epreuve.nom()+" a été pointée avant la balise de départ.");
-			this.logStatusRegle("Pénalité de "+AffichageDurees.minutesSecondes(this.tempsDernier+900));
+			this.logStatusRegle("La balise de fin de la section "+epreuve.nom()+" a ete pointee avant la balise de depart.");
+			this.logStatusRegle("Penalite de "+AffichageDurees.minutesSecondes(this.tempsDernier+900));
 			
 			return this.tempsDernier+900;
 		}
@@ -239,7 +239,7 @@ public class SectionGrimpeur extends RegleEpreuve
 	{
 		if(resultatSpeciale != null && Divers.isSameDay(resultatSpeciale.calculationDate(), this.epreuve.circuit().date()))
 		{
-			ResultatSpeciale.writeToLogFile("Règle "+this.nom()+" : "+status+"\n");
+			ResultatSpeciale.writeToLogFile("Regle "+this.nom()+" : "+status+"\n");
 		}
 		else
 		{

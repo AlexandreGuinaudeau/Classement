@@ -49,7 +49,7 @@ public class ClassementGrimpeur extends Classement {
 			}
 			else
 			{
-				ResultatSpeciale.writeToLogFile("\nL'équipe n°"+equipes[i].dossard()+" n'a pas de numéro de doigt associé. Abandon du calcul de leur résultat au raid.\n");
+				ResultatSpeciale.writeToLogFile("\nL'equipe n�"+equipes[i].dossard()+" n'a pas de numero de doigt associe. Abandon du calcul de leur resultat au raid.\n");
 			}
 		}
 		

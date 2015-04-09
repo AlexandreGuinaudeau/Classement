@@ -10,7 +10,7 @@ import Divers.*;
 
 public abstract class RegleEpreuve
 {
-	protected Set<TypeClassements> toIgnore = new HashSet<TypeClassements>(); // Les classements sur lesquels la règle ne s'applique pas.
+	protected Set<TypeClassements> toIgnore = new HashSet<TypeClassements>(); // Les classements sur lesquels la regle ne s'applique pas.
 	protected Epreuve epreuve;
 	protected String nom;
 	protected ResultatEquipeEpreuve resultat;
@@ -45,7 +45,7 @@ public abstract class RegleEpreuve
 			return new LimiteTemps(epreuve,element);
 		}
 		
-		throw new IllegalArgumentException("Nom de règle non reconnu : "+nomRegle);
+		throw new IllegalArgumentException("Nom de regle non reconnu : "+nomRegle);
 	}
 	
 	protected RegleEpreuve(Epreuve epreuve)
@@ -60,7 +60,7 @@ public abstract class RegleEpreuve
 		this.toIgnore = new HashSet<TypeClassements>();
 	}
 	
-	// La fonction appliquerAClassementOk est appelée si la règle s'applique sur le classement du résultat de l'épreuve
+	// La fonction appliquerAClassementOk est appelee si la regle s'applique sur le classement du resultat de l'epreuve
 	protected abstract void appliquerAClassementOk(ResultatBrutEquipe brut, ResultatEquipeEpreuve resultat);
 	
 	public void appliquerA(ResultatBrutEquipe brut, ResultatEquipeEpreuve resultat)
@@ -81,7 +81,7 @@ public abstract class RegleEpreuve
 	{
 		if(resultat!=null && Divers.isSameDay(resultat.resultatEquipe().upToDate(), this.epreuve.circuit().date()))
 		{
-			ResultatEquipe.writeToLogFile("Règle "+this.nom()+" : "+status+"\n");
+			ResultatEquipe.writeToLogFile("Regle "+this.nom()+" : "+status+"\n");
 		}
 	}
 }

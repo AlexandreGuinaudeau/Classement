@@ -396,10 +396,12 @@ public class SwingMain extends JFrame implements ActionListener{
 	        Integer.parseInt(txt111.getText());
 	        if(txt112.getText().equals("")){
 	          hit(txt111.getText());
+	          Keyboard.KEYBOARD.waitUntilReady();
 	          hit("a");
 	        } else {
 	          Integer.parseInt(txt112.getText());
 	          hit(txt111.getText());
+	          Keyboard.KEYBOARD.waitUntilReady();
 	          hit(txt112.getText());
 	        }
 	      } catch (Exception pasUnNombre){
@@ -435,9 +437,11 @@ public class SwingMain extends JFrame implements ActionListener{
 		if (Keyboard.KEYBOARD.modeActuel!="MODE_DEFAULT"){
 //		Return to the main menu
 		  hit("r");
+		  Keyboard.KEYBOARD.waitUntilReady();
 		}
 		currentAction = Integer.parseInt(e.getActionCommand());
 		hitInt(currentAction / 10);
+		Keyboard.KEYBOARD.waitUntilReady();
 		hitInt(currentAction % 10);
 		Keyboard.KEYBOARD.waitUntilReady();
 		//We only created one submenu for all CALCUL_CLASSEMENTS submenus (31 to 39)

@@ -7,6 +7,7 @@ import java.text.*;
 import BaseDeDonnees.BaseDeDonnees;
 import Divers.AffichageDurees;
 import Divers.StringManipulation;
+import Interface.Keyboard;
 
 public abstract class Classement
 {
@@ -428,6 +429,7 @@ public abstract class Classement
 		Collections.sort(resultats, new ComparaisonResultatsEquipes());
 		
 		this.sauvegarderResultats(resultats, upToDate);
+		Keyboard.KEYBOARD.println("Le classement a bien ete mis a jour.");
 		
 		ResultatEquipe.closeLogFile();
 	}

@@ -3,7 +3,7 @@ package Classements;
 public class ClassementEcoles extends Classement {
 
 	public String type() {
-		return "Écoles";
+		return "Ecoles";
 	}
 	
 	public TypeClassements typeClassement()

@@ -28,10 +28,10 @@ public enum Keyboard {
 	public void myPut(String s){
 	  lock.lock();
 	  try {
-	    while (!isReallyWaiting){
-	      isWaiting.awaitUninterruptibly();
+	    if (!isReallyWaiting){
+	      return;
 	    }
-	    //System.out.print("// Here you go : ");
+//	    System.out.print("// Here you go : ");
 	    input.put(s);
 	    notEmpty.signalAll();
 	    isReallyWaiting=false; //Avoids two consecutive calls to myPut.
@@ -47,14 +47,14 @@ public enum Keyboard {
 	  lock.lock();
 	  try {
 	    isReallyWaiting=true;
-  	  //System.out.print(this.modeActuel+" - I'm waiting ! ");
+//  	  System.out.print(this.modeActuel+" - I'm waiting ! ");
   	  isWaiting.signalAll();
   	  while(input.isEmpty()){
   	    notEmpty.awaitUninterruptibly();
   	  }
       result = input.take();
       System.out.println(result);
-      //System.out.print(result+" // Thanks ! ");
+//      System.out.print(result+" // Thanks ! ");
     } catch (InterruptedException e) {
       e.printStackTrace();
     } finally {

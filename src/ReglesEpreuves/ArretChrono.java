@@ -15,7 +15,7 @@ public class ArretChrono extends RegleEpreuve
 {
 	private Balise arretChronoStart = null;
 	private Balise arretChronoFinish = null;
-	private Double tempsLimite = null; // Temps limite en secondes de l'arrêt chrono
+	private Double tempsLimite = null; // Temps limite en secondes de l'arret chrono
 	
 	public ArretChrono(Epreuve epreuve, Element element)
 	{
@@ -91,18 +91,18 @@ public class ArretChrono extends RegleEpreuve
 		
 		if(arretChronoStart==null || arretChronoFinish==null)
 		{
-			throw new IllegalArgumentException("L'arrêt chrono n'a pas de balises de départ et d'arrivée.");
+			throw new IllegalArgumentException("L'arret chrono n'a pas de balises de depart et d'arrivee.");
 		}
 		
 		if(!brut.estPointee(arretChronoStart))
 		{
-			this.logStatusRegle("Erreur de pointage : la balise de départ de l'arrêt chrono n'a pas été pointée.");
+			this.logStatusRegle("Erreur de pointage : la balise de depart de l'arret chrono n'a pas ete pointee.");
 			return;
 		}
 		
 		if(!brut.estPointee(arretChronoFinish))
 		{
-			this.logStatusRegle("Erreur de pointage : la balise de fin de l'arrêt chrono n'a pas été pointée.");
+			this.logStatusRegle("Erreur de pointage : la balise de fin de l'arret chrono n'a pas ete pointee.");
 			return;
 		}
 		
@@ -111,7 +111,7 @@ public class ArretChrono extends RegleEpreuve
 		
 		if(finishIndex <= startIndex)
 		{
-			this.logStatusRegle("Erreur de pointage : la balise de fin de l'arrêt chrono a été pointée avant la balise de début.");
+			this.logStatusRegle("Erreur de pointage : la balise de fin de l'arret chrono a ete pointee avant la balise de debut.");
 			return;
 		}
 		
@@ -120,7 +120,7 @@ public class ArretChrono extends RegleEpreuve
 		
 		double tempsArret = pointageFinish.timeSince(pointageStart);
 		
-		this.logStatusRegle("Durée de l'arrêt chrono : "+AffichageDurees.minutesSecondes(tempsArret));
+		this.logStatusRegle("Duree de l'arret chrono : "+AffichageDurees.minutesSecondes(tempsArret));
 		
 		double bonus;
 		
@@ -128,22 +128,22 @@ public class ArretChrono extends RegleEpreuve
 		{
 			if(tempsArret <= tempsLimite)
 			{
-				this.logStatusRegle("La durée d'arrêt est inférieure à la durée maximale de "+AffichageDurees.minutesSecondes(tempsLimite));
+				this.logStatusRegle("La duree d'arret est inferieure a la duree maximale de "+AffichageDurees.minutesSecondes(tempsLimite));
 			}
 			else
 			{
-				this.logStatusRegle("La durée d'arrêt excède la durée maximale de "+AffichageDurees.minutesSecondes(tempsLimite));
+				this.logStatusRegle("La duree d'arret excede la duree maximale de "+AffichageDurees.minutesSecondes(tempsLimite));
 			}
 			
 			bonus = Math.min(tempsLimite, tempsArret);
 		}
 		else
 		{
-			this.logStatusRegle("La durée de l'arrêt chrono n'est pas limitée.");
+			this.logStatusRegle("La duree de l'arret chrono n'est pas limitee.");
 			bonus = tempsArret;
 		}
 		
-		this.logStatusRegle("Correction du temps réel de "+AffichageDurees.minutesSecondes(bonus));
+		this.logStatusRegle("Correction du temps reel de "+AffichageDurees.minutesSecondes(bonus));
 		
 		if(Divers.isSameDay(this.epreuve.circuit().date(), resultat.resultatEquipe().upToDate()))
 		{

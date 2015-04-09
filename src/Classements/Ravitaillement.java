@@ -8,7 +8,7 @@ import ReglesEpreuves.RegleEpreuve;
 
 public class Ravitaillement extends Epreuve
 {
-	// Construction à partir d'un élément XML
+	// Construction a partir d'un element XML
 	protected Ravitaillement(Circuit circuit, Element elem)
 	{
 		this.circuit = circuit;
@@ -29,12 +29,12 @@ public class Ravitaillement extends Epreuve
 		
 		if(finish == null)
 		{
-			throw new IllegalArgumentException("Le ravitaillement ne comporte pas de balise de fin d'arrêt chrono.");
+			throw new IllegalArgumentException("Le ravitaillement ne comporte pas de balise de fin d'arret chrono.");
 		}
 		
 		if(start == null)
 		{
-			throw new IllegalArgumentException("Le ravitaillement ne comporte pas de balise de début d'arrêt chrono !");
+			throw new IllegalArgumentException("Le ravitaillement ne comporte pas de balise de debut d'arret chrono !");
 		}
 		
 		Element reglesParents = elem.getChild("regles");

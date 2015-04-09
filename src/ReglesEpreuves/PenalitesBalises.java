@@ -21,7 +21,7 @@ public class PenalitesBalises extends RegleEpreuve
 	{
 		super(epreuve);
 		
-		this.nom = "Penalités des balises";
+		this.nom = "Penalites des balises";
 		
 		penalites = new LinkedList<Penalite>();
 	}
@@ -44,24 +44,24 @@ public class PenalitesBalises extends RegleEpreuve
 			{
 				if(!pointee)
 				{
-					this.logStatusRegle("la balise n°"+penalite.balise().numero()+" n'a pas été pointée. Malus de "+penalite.minutesDePenalites()+" minutes");
+					this.logStatusRegle("la balise n�"+penalite.balise().numero()+" n'a pas ete pointee. Malus de "+penalite.minutesDePenalites()+" minutes");
 					resultat.addToMalus(60*penalite.minutesDePenalites());
 				}
 				else
 				{
-					this.logStatusRegle("la balise n°"+penalite.balise().numero()+" a été correctement pointée.");
+					this.logStatusRegle("la balise n�"+penalite.balise().numero()+" a ete correctement pointee.");
 				}
 			}
 			else
 			{
 				if(pointee)
 				{
-					this.logStatusRegle("la balise bonus n°"+penalite.balise().numero()+" a été pointée. Bonus de "+(-penalite.minutesDePenalites())+" minutes");
+					this.logStatusRegle("la balise bonus n�"+penalite.balise().numero()+" a ete pointee. Bonus de "+(-penalite.minutesDePenalites())+" minutes");
 					resultat.addToBonus(-60*penalite.minutesDePenalites());
 				}
 				else
 				{
-					this.logStatusRegle("la balise bonus n°"+penalite.balise().numero()+" n'a pas été pointée.");
+					this.logStatusRegle("la balise bonus n�"+penalite.balise().numero()+" n'a pas ete pointee.");
 				}
 			}
 		}

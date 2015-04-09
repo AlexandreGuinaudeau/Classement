@@ -13,7 +13,7 @@ public class SectionEnLigne extends RegleEpreuve
 {
 	private Balise start;
 	private Balise finish;
-	private double malus; // Penalité si l'ordre n'est pas respecté, en secondes
+	private double malus; // Penalite si l'ordre n'est pas respecte, en secondes
 	
 	public SectionEnLigne(Epreuve epreuve, Element element)
 	{
@@ -67,7 +67,7 @@ public class SectionEnLigne extends RegleEpreuve
 		Element malusElem = element.getChild("malus");
 		if(malusElem == null)
 		{
-			throw new IllegalArgumentException("Une section en ligne doit définir un malus dans le cas où l'ordre n'est pas respecté !");
+			throw new IllegalArgumentException("Une section en ligne doit definir un malus dans le cas ou l'ordre n'est pas respecte !");
 		}
 		
 		malus = 60*Double.parseDouble(malusElem.getText());
@@ -122,11 +122,11 @@ public class SectionEnLigne extends RegleEpreuve
 		
 		if(isSorted)
 		{
-			this.logStatusRegle("La section en ligne de l'épreuve "+resultat.epreuve().nom()+" est respectée");
+			this.logStatusRegle("La section en ligne de l'epreuve "+resultat.epreuve().nom()+" est respectee");
 		}
 		else
 		{
-			this.logStatusRegle("la section en ligne de l'épreuve "+resultat.epreuve().nom()+" n'est pas respectée. Malus de "+(malus/60)+" minutes.");
+			this.logStatusRegle("la section en ligne de l'epreuve "+resultat.epreuve().nom()+" n'est pas respectee. Malus de "+(malus/60)+" minutes.");
 			resultat.addToMalus(malus);
 		}
 	}

@@ -8,7 +8,7 @@ public class ResultatEquipeEpreuve
 {
 	private Equipe equipe;
 	private Epreuve epreuve;
-	private Classement classement; // Le classement auquel est associé ce résultat intermédiaire
+	private Classement classement; // Le classement auquel est associe ce resultat intermediaire
 	
 	private double tempsReel = 0; // en secondes
 	private double bonus = 0; // en secondes
@@ -34,13 +34,13 @@ public class ResultatEquipeEpreuve
 	{
 		ResultatBrutEquipe brut = new ResultatBrutEquipe(equipe);
 		
-		log("\nApplication de la règle "+epreuve.penalitesBalises().nom()+"\n");
+		log("\nApplication de la regle "+epreuve.penalitesBalises().nom()+"\n");
 		epreuve.penalitesBalises().appliquerA(brut, this);
 		log("Malus : "+AffichageDurees.heuresMinutesSecondes(malus)+" Bonus : "+AffichageDurees.heuresMinutesSecondes(bonus)+"\n");
 		
 		
 		
-		log("\nDebut de l'application des règles");
+		log("\nDebut de l'application des regles");
 		
 		
 		
@@ -48,13 +48,13 @@ public class ResultatEquipeEpreuve
 		{
 			for(RegleEpreuve regle : epreuve.regles())
 			{
-				log("\nApplication de la règle "+regle.nom()+"\n");
+				log("\nApplication de la regle "+regle.nom()+"\n");
 				regle.appliquerA(brut, this);
 				log("Malus : "+AffichageDurees.heuresMinutesSecondes(malus)+" Bonus : "+AffichageDurees.heuresMinutesSecondes(bonus)+"\n");
 			}
 		}
 		
-		log("Fin de l'application des règles\n\n");
+		log("Fin de l'application des regles\n\n");
 		
 		if(epreuve.checkValidity(brut))
 		{
@@ -66,7 +66,7 @@ public class ResultatEquipeEpreuve
 			if (epreuve.nom.equals("VTTO1V")){
 				System.out.println(tempsReel);
 				}
-			log("Temps réel : "+AffichageDurees.heuresMinutesSecondes(tempsReel)+" Temps compensé : "+AffichageDurees.heuresMinutesSecondes(tempsReel+malus-bonus)+"\n");
+			log("Temps reel : "+AffichageDurees.heuresMinutesSecondes(tempsReel)+" Temps compense : "+AffichageDurees.heuresMinutesSecondes(tempsReel+malus-bonus)+"\n");
 			
 			this.wasSuccessfullyCalculated = true;
 		}
@@ -127,7 +127,7 @@ public class ResultatEquipeEpreuve
 	
 	public void logAbandon(String detail)
 	{
-		ResultatEquipe.writeToLogFile("Abandon du calcul de l'épreuve "+this.epreuve.nom()+" pour l'équipe "+equipe.dossard()+" : "+detail+"\n\n");
+		ResultatEquipe.writeToLogFile("Abandon du calcul de l'epreuve "+this.epreuve.nom()+" pour l'equipe "+equipe.dossard()+" : "+detail+"\n\n");
 	}
 	
 	public boolean shouldBeIgnored()

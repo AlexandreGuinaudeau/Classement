@@ -16,7 +16,7 @@ public class ResultatSpeciale
 	private double coeff = 0;
 	
 	private Equipe equipe;
-	private Classement classement; // Le classement auquel est associé ce résultat intermédiaire
+	private Classement classement; // Le classement auquel est associe ce resultat intermediaire
 	private Date upToDate;
 	
 	private boolean abandon;
@@ -39,7 +39,7 @@ public class ResultatSpeciale
 			catch(Exception e)
 			{
 				e.printStackTrace();
-				throw new IllegalArgumentException("Impossible d'ouvrir le fichier log des résultats d'équipes : "+e.getLocalizedMessage());
+				throw new IllegalArgumentException("Impossible d'ouvrir le fichier log des resultats d'equipes : "+e.getLocalizedMessage());
 			}
 		}
 		return logFile;
@@ -63,7 +63,7 @@ public class ResultatSpeciale
 		catch(Exception e)
 		{
 			e.printStackTrace();
-			throw new IllegalArgumentException("Impossible d'écrire dans le fichier log des résultats d'équipes : "+e.getLocalizedMessage());
+			throw new IllegalArgumentException("Impossible d'ecrire dans le fichier log des resultats d'equipes : "+e.getLocalizedMessage());
 		}
 	}
 	
@@ -71,7 +71,7 @@ public class ResultatSpeciale
 	{
 		if(((classement.typeClassement() == TypeClassements.CLASSEMENT_GRIMPEUR) && epreuve.hasSectionGrimpeur()) || ((classement.typeClassement() == TypeClassements.CLASSEMENT_SPRINTEUR) && epreuve.hasSectionSprinteur()))
 		{
-			writeToLogFile("Calcul du résultat pour l'épreuve "+epreuve.nom()+"\n");
+			writeToLogFile("Calcul du resultat pour l'epreuve "+epreuve.nom()+"\n");
 			writeToLogFile("Coeff avant calcul "+this.coeff+"\n");
 			
 			if(epreuve.checkValidity(brut))
@@ -92,7 +92,7 @@ public class ResultatSpeciale
 			}
 			
 
-			writeToLogFile("Coeff après calcul "+this.coeff+"\n\n");
+			writeToLogFile("Coeff apres calcul "+this.coeff+"\n\n");
 		}
 	}
 	
@@ -100,11 +100,11 @@ public class ResultatSpeciale
 	{
 		SimpleDateFormat format = new SimpleDateFormat("EEEE");
 		
-		writeToLogFile("Calcul du résultat sur le circuit du "+format.format(circuit.date())+"\n\n");
+		writeToLogFile("Calcul du resultat sur le circuit du "+format.format(circuit.date())+"\n\n");
 		
 		if(circuit.isDepartEnMasse())
 		{
-			writeToLogFile("Départ en masse : heure de départ "+format.format(circuit.date())+"\n\n");
+			writeToLogFile("Depart en masse : heure de depart "+format.format(circuit.date())+"\n\n");
 		}
 		
 		for(Epreuve epreuve : circuit.epreuves())
@@ -116,7 +116,7 @@ public class ResultatSpeciale
 	public void calculerResultat()
 	{
 		writeToLogFile("\n****************************************************\n");
-		writeToLogFile("Calcul du résultat de l'équipe n°"+this.equipe.dossard()+"\n\n");
+		writeToLogFile("Calcul du resultat de l'equipe n�"+this.equipe.dossard()+"\n\n");
 		
 		Circuit[] circuits = BaseDeDonnees.shared().circuits();
 		
@@ -128,7 +128,7 @@ public class ResultatSpeciale
 			}
 		}
 
-		writeToLogFile("\nFin du calcul du résultat de l'équipe n°"+this.equipe.dossard()+"\n");
+		writeToLogFile("\nFin du calcul du resultat de l'equipe n�"+this.equipe.dossard()+"\n");
 		writeToLogFile("****************************************************\n");
 	}
 	

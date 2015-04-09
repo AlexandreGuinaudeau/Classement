@@ -20,7 +20,7 @@ public class AcquisitionPointages extends ModeProgramme {
 		return ModesProgramme.MODE_ACQUISITION_POINTAGES;
 	}
 	
-	public void acquisition(File file)
+	public boolean acquisition(File file)
 	{
 		System.out.println();
 		Keyboard.KEYBOARD.println("Debut de l'acquistion du fichier "+file.getName());
@@ -31,13 +31,14 @@ public class AcquisitionPointages extends ModeProgramme {
 		try
 		{
 			fichier.lirePointages();
+			return true;
 		}
 		catch(Exception e)
 		{
 		  Keyboard.KEYBOARD.println("Une erreur s'est produite : "+e.getLocalizedMessage());
 			e.printStackTrace();
 			System.exit(-1);
-			return;
+			return false;
 		}
 	}
 	
@@ -51,17 +52,13 @@ public class AcquisitionPointages extends ModeProgramme {
 		
 		while(true)
 		{
-			File file = null;
-			int i=0;
-			boolean getAcquisition = false;
+		  File file = null;
 			
 			while(file==null)
 			{
 				try
 				{
-				  i++;
-				  System.out.println("i = "+i+" et file = "+file);
-					System.out.print("Chemin d'acces au fichier a importer (glissez-deposez le fichier sur cette fenetre) : ");
+				  System.out.print("Chemin d'acces au fichier a importer (glissez-deposez le fichier sur cette fenetre) : ");
 					String path = Keyboard.KEYBOARD.myTake();
 					//String path = KeyboardInput.getInput();
 					if(path.equals("q"))
@@ -80,20 +77,15 @@ public class AcquisitionPointages extends ModeProgramme {
 					if(!file.exists())
 					{
 					  Keyboard.KEYBOARD.println("Le fichier indique n'existe pas !");
-						file = null;
+					  file = null;
 					} else {
-					  getAcquisition = true;
+					  acquisition(file);
 					}
-					break;
 				}
 				catch(Exception e)
 				{
 					throw new IllegalArgumentException("Chemin d'acces invalide");
 				}
-			}
-			if (getAcquisition){
-			  this.acquisition(file);
-			  getAcquisition = false;
 			}
 		}
 	}
