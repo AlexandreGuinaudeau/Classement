@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+  <circuit>
+    <date>12/05/2012 13:35:00</date>
+    <epreuves>
+      <epreuve>
+        <nom>Run &amp; Bike</nom>
+        <distance>6.1</distance>
+        <denivele>225</denivele>
+        <balises>
+          <departEnMasse />
+          <balise>
+            <numero>1</numero>
+            <boitier>31</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>2</numero>
+            <boitier>33</boitier>
+            <bonus>30</bonus>
+          </balise>
+          <balise>
+            <numero>3</numero>
+            <boitier>32</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise type="finish">
+            <numero>4</numero>
+            <boitier>2</boitier>
+          </balise>
+        </balises>
+        <regles>
+        	<sectionEnLigne>
+        		<malus>45</malus>
+        	</sectionEnLigne>
+        </regles>
+      </epreuve>
+    </epreuves>
+  </circuit>
+</raid>

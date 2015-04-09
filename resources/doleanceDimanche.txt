@@ -1,0 +1,68 @@
+ok +10? 503639 trois poinçonnage 42
+ok +90 retourner poinconner balise
+ok +12 et 4ème arrivee probleme balise trail  optionnel
+ok +bonus: 112
+ok +118 soucis trail optionnel perte de temps trail optionnel lunette (3+5)
+ok +78 validation d'une balise courreur2+courreur1 par le courreur 1
+ok +99 mauvais sens special 59 60
+ok +85 et 93 balise 38 du trail poinconne pdt la Co
+ok +45 balise phantom pendant trail + deraileur pete fin premier ravito 
++46 pas canoe +poiconnage bizar trail optionnel
+8 pas trail+truc bizzard
+ok +102 la balise 38
++29 balise manquante?
+ok +47 vtt pas sprint?
+ok +51 balise 38 + pas 74
+ok +62 pas 74
+ok 79 pas 74et 38
+ok 59 pas 38 ni 74
+ok 54 pas 38
+16 deux balsise manquantes?
+ok 34 38 plus tard
+15 plus de doigts
+ok 68 74 et 38 apres
+ok 95 pas 38
+ok 124 38 apres
+ok 1 38 apres
+OK 76 trail optionnel fin de coureur 2 poinconnage avnt et trail opt
+58 38
+ok double poinconnage fin trail 2 a 0sec ecart
+ok 13 38
+5ok 7 38
+OK-48 ravito3 et avant CO  503156
++equipe 7 probleme casque ravito3 
+ok 94 balise co deplacé au nord d'une but (et non sud est) dans les ronces ....
+-28 Co Vtt arrivee une fois 49?
+105 trois balise manquantes?
+ok 52 manques bcp valise Vtt pas de specialeSprint?
+ok 21 pas 74/ arrive CO, menou  a renvoye vers marc Negre au lieu Canoe
+ok 42 pas 74
+ok 56 manques vtt speciales 
+ok 25 pas vtt speciales et pas 68?
+ok 3 pas sprint VTT
+ok 69 manques balises ??? detourner par menou
+ok 89 detournement menou
+ok 25 detournement menou69/21 +5
+ok 107 pas 74
+36 balise maqt?? 503470 (55)
+20 pas 74 et prbm hier temps mult 1h19??? (et autour 71 )
+113 
+66 balises mqt??? (40) certain de l'avoir prise même au vu de la carte.
+22 balise mqt??
+5 balise mqt??
+37 pas 74
+//moi proximite balise 45 et 56???
+69 mqt sprint vtt du matin (32 33)  
+2 casques rendu abandon 503417 (pas 55)
+equipes 6 mqt balise??
+equipes 14 mqt balise??
+Meilleur Kayak?
+29 74
+9 74
+<balise >
+            <numero>238</numero>
+            <boitier>38</boitier>
+			<malus>30</malus>
+          </balise>
+4528 min
+504785 rendu +casques

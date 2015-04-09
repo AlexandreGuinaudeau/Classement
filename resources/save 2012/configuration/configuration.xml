@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <field>
+    <key>SpecificationRaid</key>
+    <value>resources/configuration/raid.xml</value>
+  </field>
+  <field>
+    <key>BaseDeDonnees</key>
+    <value>resources/data/classements.sqlite</value>
+  </field>
+</configuration>

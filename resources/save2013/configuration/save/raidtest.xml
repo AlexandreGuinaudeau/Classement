@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+  <circuit>
+    <date>15/05/2013 22:34:49</date>
+    <epreuves>
+      <epreuve>
+        <nom>A</nom>
+        <distance>13.6</distance>
+        <denivele>220</denivele>
+        <balises>
+          <balise type="start">
+            <numero>101</numero>
+            <boitier>1</boitier>
+          </balise>
+          <balise>
+            <numero>131</numero>
+            <boitier>31</boitier>
+          </balise>
+          <balise>
+            <numero>132</numero>
+            <boitier>32</boitier>
+	    <bonus>20</bonus>
+          </balise>
+          <balise>
+            <numero>133</numero>
+            <boitier>33</boitier>
+	    <malus>30</malus>
+          </balise>
+          <balise type="finish">
+            <numero>102</numero>
+            <boitier>2</boitier>
+          </balise>
+        </balises>
+        <regles>
+        </regles>
+      </epreuve>
+    </epreuves>
+  </circuit>
+</raid>

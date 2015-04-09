@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+  <circuit>
+    <date>26/03/2013 18:02:17</date>
+    <epreuves>
+      <epreuve>
+        <nom>Course</nom>
+        <distance>10</distance>
+        <denivele>0</denivele>
+        <balises>
+          <balise type="start">
+            <numero>100</numero>
+            <boitier>1</boitier>
+          </balise>
+          <balise>
+            <numero>131</numero>
+            <boitier>31</boitier>
+          </balise>
+          <balise>
+            <numero>132</numero>
+            <boitier>32</boitier>
+            <malus>10</malus>
+          </balise>
+          <balise>
+            <numero>133</numero>
+            <boitier>33</boitier>
+            <bonus>10</bonus>
+          </balise>
+          <arrivee/>
+        </balises>
+        <regles>
+          <sectionEnLigne>
+              <malus>10</malus>
+          </sectionEnLigne>
+        </regles>
+      </epreuve>
+    </epreuves>
+  </circuit>
+</raid>

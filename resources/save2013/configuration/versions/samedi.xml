@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+  <circuit>
+    <date>18/05/2013 08:03:13</date>
+    <epreuves>
+      <epreuve>
+        <nom>Trail + Run &amp; Bike</nom>
+        <distance>13.6</distance>
+        <denivele>220</denivele>
+        <balises>
+          <departEnMasse />
+          <balise type="finish">
+            <numero>131</numero>
+            <boitier>31</boitier>
+          </balise>
+        </balises>
+        <regles>
+        </regles>
+      </epreuve>
+      <epreuve>
+        <nom>VTTO1</nom>
+        <distance>5.5</distance>
+        <denivele>150</denivele>
+        <balises>
+          <balise type="start">
+            <numero>131</numero>
+            <boitier>31</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>132</numero>
+            <boitier>32</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>133</numero>
+            <boitier>33</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>134</numero>
+            <boitier>34</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>135</numero>
+            <boitier>35</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>136</numero>
+            <boitier>36</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>137</numero>
+            <boitier>37</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>138</numero>
+            <boitier>38</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise type="finish">
+            <numero>139</numero>
+            <boitier>39</boitier>
+          </balise>
+        </balises>
+        <regles />
+      </epreuve>
+      <epreuve>
+        <nom>Speciale Sprint</nom>
+        <distance>2.1</distance>
+        <denivele>35</denivele>
+        <balises>
+          <balise type="start">
+            <numero>139</numero>
+            <boitier>39</boitier>
+          </balise>
+          <balise type="finish">
+            <numero>140</numero>
+            <boitier>40</boitier>
+          </balise>
+        </balises>
+        <regles>
+          <sectionSprinteur>
+            <balise numero="139" type="start" ></balise>
+            <balise numero="140" type="finish" />
+          	<tempsVainqueur>236</tempsVainqueur>
+          	<tempsDernier>651</tempsDernier>
+	    <multiplicateur>4</multiplicateur>
+          </sectionSprinteur>
+        </regles>
+      </epreuve>
+      <epreuve>
+        <nom>Liaison 1</nom>
+        <distance>0.2</distance>
+        <denivele>0</denivele>
+        <balises>
+          <balise type="start">
+            <numero>140</numero>
+            <boitier>40</boitier>
+          </balise>
+          <balise type="finish">
+            <numero>141</numero>
+            <boitier>41</boitier>
+          </balise>
+        </balises>
+        <regles />
+      </epreuve>
+      <ravitaillement>
+        <balises>
+          <balise type="start">
+            <numero>141</numero>
+            <boitier>41</boitier>
+          </balise>
+          <balise type="finish">
+            <numero>142</numero>
+            <boitier>42</boitier>
+          </balise>
+        </balises>
+        <regles>
+          <arretchrono>
+            <balise numero="141" type="start" />
+            <balise numero="142" type="finish" />
+          	<tempsLimite>30</tempsLimite>
+          </arretchrono>
+        </regles>
+      </ravitaillement>
+      <epreuve>
+        <nom>CO score 1h15</nom>
+        <distance>0</distance>
+        <denivele>0</denivele>
+        <balises>
+          <balise type="start">
+            <numero>142</numero>
+            <boitier>42</boitier>
+          </balise>
+          <balise>
+            <numero>143</numero>
+            <boitier>43</boitier>
+            <malus>10</malus>
+          </balise>
+          <balise>
+            <numero>144</numero>
+            <boitier>44</boitier>
+            <malus>10</malus>
+          </balise>
+          <balise>
+            <numero>145</numero>
+            <boitier>45</boitier>
+            <malus>10</malus>
+          </balise>
+          <balise>
+            <numero>146</numero>
+            <boitier>46</boitier>
+            <malus>10</malus>
+          </balise>
+          <balise>
+            <numero>147</numero>
+            <boitier>47</boitier>
+            <malus>10</malus>
+          </balise>
+          <balise>
+            <numero>148</numero>
+            <boitier>48</boitier>
+            <malus>10</malus>
+          </balise>
+          <balise>
+            <numero>149</numero>
+            <boitier>49</boitier>
+            <malus>10</malus>
+          </balise>
+          <balise>
+            <numero>150</numero>
+            <boitier>50</boitier>
+            <malus>10</malus>
+          </balise>
+          <balise>
+            <numero>151</numero>
+            <boitier>51</boitier>
+            <malus>10</malus>
+          </balise>
+          <balise>
+            <numero>152</numero>
+            <boitier>52</boitier>
+            <malus>10</malus>
+          </balise>
+          <balise>
+            <numero>153</numero>
+            <boitier>53</boitier>
+            <malus>10</malus>
+          </balise>
+          <balise>
+            <numero>154</numero>
+            <boitier>54</boitier>
+            <malus>10</malus>
+          </balise>
+          <balise>
+            <numero>155</numero>
+            <boitier>55</boitier>
+            <malus>10</malus>
+          </balise>
+          <balise type="finish">
+            <numero>156</numero>
+            <boitier>56</boitier>
+          </balise>
+        </balises>
+        <regles>
+          <limiteTemps>
+            <limite>75</limite>
+            <malus>5</malus>
+          </limiteTemps>
+        </regles>
+      </epreuve>
+      <epreuve>
+        <nom>VTTO 2</nom>
+        <distance>4.3</distance>
+        <denivele>80</denivele>
+        <balises>
+          <balise type="start">
+            <numero>156</numero>
+            <boitier>56</boitier>
+          </balise>
+          <balise>
+            <numero>157</numero>
+            <boitier>57</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>158</numero>
+            <boitier>58</boitier>
+            <bonus>15</bonus>
+          </balise>
+          <balise>
+            <numero>159</numero>
+            <boitier>59</boitier>
+            <bonus>15</bonus>
+          </balise>
+          <balise>
+            <numero>160</numero>
+            <boitier>60</boitier>
+            <bonus>10</bonus>
+          </balise>
+          <balise>
+            <numero>161</numero>
+            <boitier>61</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise type="finish">
+            <numero>162</numero>
+            <boitier>62</boitier>
+          </balise>
+        </balises>
+        <regles />
+      </epreuve>
+      <epreuve>
+        <nom>Speciale montee</nom>
+        <distance>1.5</distance>
+        <denivele>100</denivele>
+        <balises>
+          <balise type="start">
+            <numero>162</numero>
+            <boitier>62</boitier>
+          </balise>
+          <balise type="finish">
+            <numero>163</numero>
+            <boitier>63</boitier>
+          </balise>
+        </balises>
+        <regles>
+          <sectionGrimpeur>
+            <balise numero="162" type="start" />
+            <balise numero="163" type="finish" />
+          <tempsVainqueur>433</tempsVainqueur>
+          <tempsDernier>1218</tempsDernier>
+	    <multiplicateur>4</multiplicateur>
+          </sectionGrimpeur>
+        </regles>
+      </epreuve>
+      <epreuve>
+        <nom>Liaison 2</nom>
+        <distance>2.2</distance>
+        <denivele>65</denivele>
+        <balises>
+          <balise type="start">
+            <numero>163</numero>
+            <boitier>63</boitier>
+          </balise>
+          <balise type="finish">
+            <numero>164</numero>
+            <boitier>64</boitier>
+          </balise>
+        </balises>
+        <regles />
+      </epreuve>
+      <ravitaillement>
+        <balises>
+          <balise type="start">
+            <numero>164</numero>
+            <boitier>64</boitier>
+          </balise>
+          <balise type="finish">
+            <numero>165</numero>
+            <boitier>65</boitier>
+          </balise>
+        </balises>
+        <regles>
+          <arretchrono>
+            <balise numero="164" type="start" />
+            <balise numero="165" type="finish" />
+          	<tempsLimite>15</tempsLimite>
+          </arretchrono>
+        </regles>
+      </ravitaillement>
+      <epreuve>
+        <nom>Trail optionnel</nom>
+        <distance>5.5</distance>
+        <denivele>160</denivele>
+        <balises>
+          <balise type="start">
+            <numero>165</numero>
+            <boitier>65</boitier>
+          </balise>
+          <balise>
+            <numero>166</numero>
+            <boitier>66</boitier>
+            <bonus>30</bonus>
+          </balise>
+          <balise>
+            <numero>167</numero>
+            <boitier>67</boitier>
+            <bonus>30</bonus>
+          </balise>
+          <balise type="finish">
+            <numero>168</numero>
+            <boitier>68</boitier>
+          </balise>
+	</balises>
+        <regles />
+      </epreuve>
+      <epreuve>
+        <nom>VTT</nom>
+        <distance>7</distance>
+        <denivele>175</denivele>
+        <balises>
+          <balise type="start">
+            <numero>168</numero>
+            <boitier>68</boitier>
+          </balise>
+          <balise type="finish">
+            <numero>102</numero>
+            <boitier>2</boitier>
+          </balise>
+        </balises>
+        <regles />
+      </epreuve>
+    </epreuves>
+  </circuit>
+  <circuit>
+    <date>19/05/2013 08:03:13</date>
+    <epreuves>
+    </epreuves>
+  </circuit>
+</raid>

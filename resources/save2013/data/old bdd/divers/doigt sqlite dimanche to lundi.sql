@@ -1,0 +1,10 @@
+
+UPDATE equipes SET abandon=1 WHERE dossard=42;
+UPDATE equipes SET abandon=1 WHERE dossard=70;
+UPDATE equipes SET abandon=1 WHERE dossard=114;
+UPDATE equipes SET abandon=1 WHERE dossard=94;
+UPDATE equipes SET abandon=1 WHERE dossard=50;
+
+UPDATE pointage SET doigt=514283 WHERE doigt=514180;
+
+UPDATE pointage SET type=2 WHERE boitier=67 AND date>1368870561000+36*3600000;

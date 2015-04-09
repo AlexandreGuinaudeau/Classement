@@ -1,0 +1,196 @@
+      <epreuve>
+        <nom>Canoe1</nom>
+        <distance>6.9</distance>
+        <denivele>0</denivele>
+        <balises>
+          <balise type="start">
+            <numero>251</numero>
+            <boitier>51</boitier>
+          </balise>
+          <balise>
+            <numero>252</numero>
+            <boitier>52</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>253</numero>
+            <boitier>53</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise type="finish">
+            <numero>254</numero>
+            <boitier>54</boitier>
+          </balise>
+        </balises>
+        <regles />
+      </epreuve>
+      <ravitaillement>
+        <balises>
+          <balise type="start">
+            <numero>254</numero>
+            <boitier>54</boitier>
+          </balise>
+          <balise type="finish">
+            <numero>255</numero>
+            <boitier>55</boitier>
+          </balise>
+        </balises>
+        <regles>
+          <arretchrono>
+            <balise numero="254" type="start" />
+            <balise numero="255" type="finish" />
+            <tempsLimite>15</tempsLimite>
+          </arretchrono>
+        </regles>
+      </ravitaillement>
+      <epreuve>
+        <nom>VTT3</nom>
+        <distance>3.4</distance>
+        <denivele>65</denivele>
+        <balises>
+          <balise type="start">
+            <numero>255</numero>
+            <boitier>55</boitier>
+          </balise>
+          <balise type="finish">
+            <numero>256</numero>
+            <boitier>56</boitier>
+          </balise>
+        </balises>
+        <regles />
+      </epreuve>
+      <epreuve>
+        <nom>VTTO1</nom>
+        <distance>6</distance>
+        <denivele>150</denivele>
+        <balises>
+          <balise type="start">
+            <numero>256</numero>
+            <boitier>56</boitier>
+          </balise>
+          <balise>
+            <numero>257</numero>
+            <boitier>57</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>258</numero>
+            <boitier>58</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>259</numero>
+            <boitier>59</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>260</numero>
+            <boitier>60</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>261</numero>
+            <boitier>61</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>262</numero>
+            <boitier>62</boitier>
+            <bonus>15</bonus>
+          </balise>
+          <balise>
+            <numero>263</numero>
+            <boitier>63</boitier>
+            <bonus>15</bonus>
+          </balise>
+          <balise type="finish">
+            <numero>264</numero>
+            <boitier>64</boitier>
+          </balise>
+        </balises>
+        <regles />
+      </epreuve>
+      <epreuve>
+        <nom>Trail optionnel 1</nom>
+        <distance>1.3</distance>
+        <denivele>70</denivele>
+        <balises>
+          <balise type="start">
+            <numero>264</numero>
+            <boitier>64</boitier>
+          </balise>
+          <balise>
+            <numero>265</numero>
+            <boitier>65</boitier>
+            <bonus>5</bonus>
+          </balise>
+          <balise>
+            <numero>266</numero>
+            <boitier>66</boitier>
+            <bonus>10</bonus>
+          </balise>
+          <balise>
+            <numero>267</numero>
+            <boitier>67</boitier>
+            <bonus>10</bonus>
+          </balise>
+          <balise type="finish">
+            <numero>268</numero>
+            <boitier>68</boitier>
+          </balise>
+        </balises>
+        <regles />
+      </epreuve>
+      <epreuve>
+        <nom>Trail optionnel 2</nom>
+        <distance>1.3</distance>
+        <denivele>70</denivele>
+        <balises>
+          <balise type="start">
+            <numero>268</numero>
+            <boitier>68</boitier>
+          </balise>
+          <balise>
+            <numero>269</numero>
+            <boitier>69</boitier>
+            <bonus>5</bonus>
+          </balise>
+          <balise>
+            <numero>270</numero>
+            <boitier>70</boitier>
+            <bonus>10</bonus>
+          </balise>
+          <balise>
+            <numero>271</numero>
+            <boitier>71</boitier>
+            <bonus>5</bonus>
+          </balise>
+          <balise>
+            <numero>271</numero>
+            <boitier>71</boitier>
+            <bonus>5</bonus>
+          </balise>
+          <balise type="finish">
+            <numero>273</numero>
+            <boitier>73</boitier>
+          </balise>
+        </balises>
+        <regles />
+      </epreuve>
+      <epreuve>
+        <nom>VTT4</nom>
+        <distance>2</distance>
+        <denivele>40</denivele>
+        <balises>
+          <balise type="start">
+            <numero>273</numero>
+            <boitier>73</boitier>
+          </balise>
+          <balise type="finish">
+            <numero>274</numero>
+            <boitier>74</boitier>
+          </balise>
+        </balises>
+        <regles />
+      </epreuve>
+      <epreuve>

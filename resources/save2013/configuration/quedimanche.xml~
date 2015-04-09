@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+  <circuit>
+    <date>18/05/2013 08:03:13</date>
+    <epreuves>
+      <epreuve>
+        <nom>Toto</nom>
+        <distance>13.6</distance>
+        <denivele>220</denivele>
+        <balises>
+          <departEnMasse />
+          <balise>
+            <numero>131</numero>
+            <boitier>31</boitier>
+          </balise>
+          <balise>
+            <numero>132</numero>
+            <boitier>32</boitier>
+          </balise>
+          <balise>
+            <numero>133</numero>
+            <boitier>33</boitier>
+          </balise>
+          <balise>
+            <numero>134</numero>
+            <boitier>34</boitier>
+          </balise>
+          <balise>
+            <numero>135</numero>
+            <boitier>35</boitier>
+          </balise>
+          <balise>
+            <numero>136</numero>
+            <boitier>36</boitier>
+          </balise>
+          <balise>
+            <numero>137</numero>
+            <boitier>37</boitier>
+          </balise>
+          <balise>
+            <numero>138</numero>
+            <boitier>38</boitier>
+          </balise>
+          <balise>
+            <numero>139</numero>
+            <boitier>39</boitier>
+          </balise>
+          <balise>
+            <numero>140</numero>
+            <boitier>40</boitier>
+          </balise>
+          <balise>
+            <numero>141</numero>
+            <boitier>41</boitier>
+          </balise>
+          <balise>
+            <numero>142</numero>
+            <boitier>42</boitier>
+          </balise>
+          <balise>
+            <numero>143</numero>
+            <boitier>43</boitier>
+          </balise>
+          <balise>
+            <numero>144</numero>
+            <boitier>44</boitier>
+          </balise>
+          <balise>
+            <numero>145</numero>
+            <boitier>45</boitier>
+          </balise>
+          <balise>
+            <numero>146</numero>
+            <boitier>46</boitier>
+          </balise>
+          <balise>
+            <numero>147</numero>
+            <boitier>47</boitier>
+          </balise>
+          <balise>
+            <numero>148</numero>
+            <boitier>48</boitier>
+          </balise>
+          <balise>
+            <numero>149</numero>
+            <boitier>49</boitier>
+          </balise>
+          <balise>
+            <numero>150</numero>
+            <boitier>50</boitier>
+          </balise>
+          <balise>
+            <numero>151</numero>
+            <boitier>51</boitier>
+          </balise>
+          <balise>
+            <numero>152</numero>
+            <boitier>52</boitier>
+          </balise>
+          <balise>
+            <numero>153</numero>
+            <boitier>53</boitier>
+          </balise>
+          <balise>
+            <numero>154</numero>
+            <boitier>54</boitier>
+          </balise>
+          <balise>
+            <numero>155</numero>
+            <boitier>55</boitier>
+          </balise>
+          <balise>
+            <numero>156</numero>
+            <boitier>56</boitier>
+          </balise>
+          <balise>
+            <numero>157</numero>
+            <boitier>57</boitier>
+          </balise>
+          <balise>
+            <numero>158</numero>
+            <boitier>58</boitier>
+          </balise>
+          <balise>
+            <numero>159</numero>
+            <boitier>59</boitier>
+          </balise>
+          <balise>
+            <numero>160</numero>
+            <boitier>60</boitier>
+          </balise>
+          <balise>
+            <numero>161</numero>
+            <boitier>61</boitier>
+          </balise>
+          <balise>
+            <numero>162</numero>
+            <boitier>62</boitier>
+          </balise>
+          <balise>
+            <numero>163</numero>
+            <boitier>63</boitier>
+          </balise>
+          <balise>
+            <numero>164</numero>
+            <boitier>64</boitier>
+          </balise>
+          <balise>
+            <numero>165</numero>
+            <boitier>65</boitier>
+          </balise>
+          <balise>
+            <numero>166</numero>
+            <boitier>66</boitier>
+          </balise>
+          <balise>
+            <numero>167</numero>
+            <boitier>67</boitier>
+          </balise>
+          <balise>
+            <numero>168</numero>
+            <boitier>68</boitier>
+          </balise>
+          <balise type="finish">
+            <numero>102</numero>
+            <boitier>2</boitier>
+          </balise>
+        </balises>
+        <regles />
+      </epreuve>
+    </epreuves>
+  </circuit>
+
+  <circuit>
+    <date>19/05/2013 08:00:00</date>
+    <epreuves>
+      <epreuve>
+        <nom>R &amp; B</nom>
+        <distance>4.7</distance>
+        <denivele>220</denivele>
+        <balises>
+          <balise type="start">
+            <numero>230</numero>
+            <boitier>1</boitier>
+          </balise>
+          <balise type="finish">
+            <numero>231</numero>
+            <boitier>31</boitier>
+          </balise>
+        </balises>
+        <regles />
+      </epreuve>
+      <epreuve>
+        <nom>VTTO1</nom>
+        <distance>5</distance>
+        <denivele>75</denivele>
+        <balises>
+          <balise type="start">
+            <numero>231</numero>
+            <boitier>31</boitier>
+          </balise>
+          <balise>
+            <numero>232</numero>
+            <boitier>32</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>233</numero>
+            <boitier>33</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>234</numero>
+            <boitier>34</boitier>
+            <bonus>15</bonus>
+          </balise>
+          <balise>
+            <numero>235</numero>
+            <boitier>35</boitier>
+            <bonus>30</bonus>
+          </balise>
+          <balise>
+            <numero>236</numero>
+            <boitier>36</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise type="finish">
+            <numero>237</numero>
+            <boitier>37</boitier>
+            <malus>30</malus>
+          </balise>
+        </balises>
+        <regles />
+      </epreuve>
+      <epreuve>
+        <nom>VTT Sprint</nom>
+        <distance>1.1</distance>
+        <denivele>0</denivele>
+        <balises>
+          <balise type="start">
+            <numero>237</numero>
+            <boitier>37</boitier>
+          </balise>
+          <balise type="finish">
+            <numero>238</numero>
+            <boitier>38</boitier>
+          </balise>
+        </balises>
+        <regles>
+          <sectionSprinteur>
+            <balise numero="237" type="start" ></balise>
+            <balise numero="238" type="finish" />
+          	<tempsVainqueur>121</tempsVainqueur>
+          	<tempsDernier>1373</tempsDernier>
+	    <multiplicateur>4</multiplicateur>
+          </sectionSprinteur>
+        </regles>
+      </epreuve>
+      <ravitaillement>
+        <balises>
+          <balise type="start">
+            <numero>238</numero>
+            <boitier>38</boitier>
+          </balise>
+          <balise type="finish">
+            <numero>239</numero>
+            <boitier>39</boitier>
+          </balise>
+        </balises>
+        <regles>
+          <arretchrono>
+            <balise numero="238" type="start" />
+            <balise numero="239" type="finish" />
+          	<tempsLimite>15</tempsLimite>
+          </arretchrono>
+        </regles>
+      </ravitaillement>
+      <epreuve>
+        <nom>CO</nom>
+        <distance>4.5</distance>
+        <denivele>150</denivele>
+        <balises>
+          <balise type="start">
+            <numero>239</numero>
+            <boitier>39</boitier>
+          </balise>
+          <balise>
+            <numero>240</numero>
+            <boitier>40</boitier>
+            <malus>15</malus>
+          </balise>
+          <balise>
+            <numero>275</numero>
+            <boitier>75</boitier>
+          </balise>
+          <balise>
+            <numero>276</numero>
+            <boitier>76</boitier>
+          </balise>
+          <balise>
+            <numero>242</numero>
+            <boitier>42</boitier>
+            <malus>15</malus>
+          </balise>
+          <balise>
+            <numero>243</numero>
+            <boitier>43</boitier>
+            <malus>15</malus>
+          </balise>
+          <balise>
+            <numero>244</numero>
+            <boitier>44</boitier>
+            <bonus>15</bonus>
+          </balise>
+          <balise>
+            <numero>245</numero>
+            <boitier>45</boitier>
+            <bonus>15</bonus>
+          </balise>
+          <balise>
+            <numero>246</numero>
+            <boitier>46</boitier>
+            <malus>15</malus>
+          </balise>
+          <balise>
+            <numero>247</numero>
+            <boitier>47</boitier>
+            <malus>15</malus>
+          </balise>
+          <balise>
+            <numero>248</numero>
+            <boitier>48</boitier>
+            <malus>15</malus>
+          </balise>
+          <balise>
+            <numero>249</numero>
+            <boitier>49</boitier>
+            <malus>15</malus>
+          </balise>
+          <balise>
+            <numero>250</numero>
+            <boitier>50</boitier>
+            <bonus>30</bonus>
+          </balise>
+          <balise>
+            <numero>251</numero>
+            <boitier>51</boitier>
+            <malus>15</malus>
+          </balise>
+          <balise type="finish">
+            <numero>252</numero>
+            <boitier>52</boitier>
+          </balise>
+        </balises>
+        <regles>
+          <arretchrono>
+            <balise numero="275" type="start" />
+            <balise numero="276" type="finish" />
+          </arretchrono>
+        </regles>
+      </epreuve>
+      <epreuve>
+        <nom>Speciale montee</nom>
+        <distance>0.2</distance>
+        <denivele>35</denivele>
+        <balises>
+          <balise type="start">
+            <numero>152</numero>
+            <boitier>52</boitier>
+          </balise>
+          <balise type="finish">
+            <numero>153</numero>
+            <boitier>53</boitier>
+          </balise>
+        </balises>
+        <regles>
+          <sectionGrimpeur>
+            <balise numero="152" type="start" />
+            <balise numero="153" type="finish" />
+          	<tempsVainqueur>637</tempsVainqueur>
+          	<tempsDernier>1683</tempsDernier>
+	    <multiplicateur>4</multiplicateur>
+          </sectionGrimpeur>
+        </regles>
+      </epreuve>
+      <epreuve>
+        <nom>Trail liaison</nom>
+        <distance>1.7</distance>
+        <denivele>125</denivele>
+        <balises>
+          <balise type="start">
+            <numero>253</numero>
+            <boitier>53</boitier>
+          </balise>
+          <balise type="finish">
+            <numero>254</numero>
+            <boitier>54</boitier>
+          </balise>
+        </balises>
+        <regles />
+      </epreuve>
+      <ravitaillement>
+        <balises>
+          <balise type="start">
+            <numero>254</numero>
+            <boitier>54</boitier>
+          </balise>
+          <balise type="finish">
+            <numero>256</numero>
+            <boitier>56</boitier>
+          </balise>
+        </balises>
+        <regles>
+          <arretchrono>
+            <balise numero="254" type="start" />
+            <balise numero="256" type="finish" />
+          	<tempsLimite>30</tempsLimite>
+          </arretchrono>
+        </regles>
+      </ravitaillement>
+      <epreuve>
+        <nom>Spot de descente</nom>
+        <distance>2.1</distance>
+        <denivele>40</denivele>
+        <balises>
+          <balise type="start">
+            <numero>256</numero>
+            <boitier>56</boitier>
+          </balise>
+          <balise type="finish">
+            <numero>257</numero>
+            <boitier>57</boitier>
+          </balise>
+        </balises>
+        <regles />
+      </epreuve>   
+      <epreuve>
+        <nom>VTTO2</nom>
+        <distance>6</distance>
+        <denivele>180</denivele>
+        <balises>
+          <balise type="start">
+            <numero>257</numero>
+            <boitier>57</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>258</numero>
+            <boitier>58</boitier>
+            <bonus>15</bonus>
+          </balise>
+          <balise>
+            <numero>259</numero>
+            <boitier>59</boitier>
+          </balise>
+          <balise>
+            <numero>260</numero>
+            <boitier>60</boitier>
+          </balise>
+          <balise>
+            <numero>261</numero>
+            <boitier>61</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>263</numero>
+            <boitier>63</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise type="finish">
+            <numero>265</numero>
+            <boitier>65</boitier>
+          </balise>
+        </balises>
+        <regles />
+      </epreuve>   
+      <epreuve>
+        <nom>Speciale montee</nom>
+        <distance>1.3</distance>
+        <denivele>120</denivele>
+        <balises>
+          <balise type="start">
+            <numero>265</numero>
+            <boitier>65</boitier>
+          </balise>
+          <balise type="finish">
+            <numero>266</numero>
+            <boitier>66</boitier>
+          </balise>
+        </balises>
+        <regles>
+          <sectionGrimpeur>
+            <balise numero="265" type="start" />
+            <balise numero="266" type="finish" />
+          	<tempsVainqueur>637</tempsVainqueur>
+          	<tempsDernier>1683</tempsDernier>
+	    <multiplicateur>4</multiplicateur>
+          </sectionGrimpeur>
+        </regles>
+      </epreuve>
+      <epreuve>
+        <nom>Liaison</nom>
+        <distance>1</distance>
+        <denivele>1</denivele>
+        <balises>
+          <balise type="start">
+            <numero>266</numero>
+            <boitier>66</boitier>
+          </balise>
+          <balise type="finish">
+            <numero>267</numero>
+            <boitier>67</boitier>
+          </balise>
+        </balises>
+        <regles />
+      </epreuve>  
+      <ravitaillement>
+        <balises>
+          <balise type="start">
+            <numero>267</numero>
+            <boitier>67</boitier>
+          </balise>
+          <balise type="finish">
+            <numero>268</numero>
+            <boitier>68</boitier>
+          </balise>
+        </balises>
+        <regles>
+          <arretchrono>
+            <balise numero="267" type="start" />
+            <balise numero="268" type="finish" />
+          	<tempsLimite>1111</tempsLimite>
+          </arretchrono>
+        </regles>
+      </ravitaillement>
+      <epreuve>
+        <nom>Biathlon</nom>
+        <distance>3</distance>
+        <denivele>0</denivele>
+        <balises>
+          <balise type="start">
+            <numero>268</numero>
+            <boitier>68</boitier>
+          </balise>
+          <balise>
+            <numero>277</numero>
+            <boitier>75</boitier>
+          </balise>
+          <balise>
+            <numero>278</numero>
+            <boitier>76</boitier>
+          </balise>
+          <balise type="finish">
+            <numero>269</numero>
+            <boitier>69</boitier>
+          </balise>
+        </balises>
+        <regles>
+          <arretchrono>
+            <balise numero="277" type="start" />
+            <balise numero="278" type="finish" />
+          </arretchrono>
+        </regles>
+      </epreuve>
+      <epreuve>
+        <nom>VTTO3</nom>
+        <distance>5.5</distance>
+        <denivele>75</denivele>
+        <balises>
+          <balise type="start">
+            <numero>269</numero>
+            <boitier>69</boitier>
+          </balise>
+          <balise>
+            <numero>270</numero>
+            <boitier>70</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>271</numero>
+            <boitier>71</boitier>
+            <bonus>15</bonus>
+          </balise>
+          <balise>
+            <numero>272</numero>
+            <boitier>72</boitier>
+            <bonus>10</bonus>
+          </balise>
+          <balise>
+            <numero>273</numero>
+            <boitier>73</boitier>
+            <bonus>10</bonus>
+          </balise>
+          <balise>
+            <numero>274</numero>
+            <boitier>74</boitier>
+            <bonus>15</bonus>
+          </balise>
+          <balise type="finish">
+            <numero>202</numero>
+            <boitier>2</boitier>
+          </balise>
+        </balises>
+        <regles />
+      </epreuve>    
+    </epreuves>
+  </circuit>
+
+  <circuit>
+    <date>20/05/2013 08:03:13</date>
+  </circuit>
+</raid>

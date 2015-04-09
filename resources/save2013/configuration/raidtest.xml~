@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+  <circuit>
+    <date>12/12/2012 08:00:00</date>
+    <epreuves>
+      <epreuve>
+        <nom>Course</nom>
+        <distance>10</distance>
+        <denivele>0</denivele>
+        <balises>
+          <balise type="start">
+            <numero>31</numero>
+            <boitier>11</boitier>
+          </balise>
+          <balise>
+            <numero>32</numero>
+            <boitier>12</boitier>
+            <bonus>10</bonus>
+          </balise>
+          <balise>
+            <numero>33</numero>
+            <boitier>13</boitier>
+            <bonus>10</bonus>
+          </balise>
+          <balise>
+            <numero>34</numero>
+            <boitier>14</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise type="finish">
+            <numero>35</numero>
+            <boitier>15</boitier>
+          </balise>
+        </balises>
+        <regles>
+          <arretchrono>
+            <balise numero="34" type="start" />
+            <balise numero="35" type="finish" />
+          </arretchrono>
+        </regles>
+      </epreuve>
+      <epreuve>
+        <nom>Trail2</nom>
+        <distance>5.1</distance>
+        <denivele>210</denivele>
+        <balises>
+          <balise type="start">
+            <numero>35</numero>
+            <boitier>15</boitier>
+          </balise>
+          <balise>
+            <numero>36</numero>
+            <boitier>16</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise type="finish">
+            <numero>37</numero>
+            <boitier>17</boitier>
+            <malus>30</malus>
+          </balise>
+        </balises>
+      </epreuve>
+    </epreuves>
+  </circuit>
+</raid>

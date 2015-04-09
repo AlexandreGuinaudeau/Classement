@@ -1,0 +1,28 @@
+          <balise>
+            <numero></numero>
+            <boitier></boitier>
+            <malus></malus>
+          </balise>
+
+
+      <epreuve>
+        <nom>Liaison</nom>
+        <distance>1</distance>
+        <denivele>1</denivele>
+        <balises>
+          <balise type="start">
+            <numero></numero>
+            <boitier></boitier>
+          </balise>
+          <balise>
+            <numero></numero>
+            <boitier></boitier>
+            <malus></malus>
+          </balise>
+          <balise type="finish">
+            <numero></numero>
+            <boitier></boitier>
+          </balise>
+        </balises>
+        <regles />
+      </epreuve>  

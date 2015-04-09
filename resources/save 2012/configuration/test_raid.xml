@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+  <circuit>
+    <date>25/05/2012 14:29:00</date>
+    <epreuves>
+      <epreuve>
+        <nom>Run &amp; Bike</nom>
+        <distance>6.1</distance>
+        <denivele>225</denivele>
+        <balises>
+          <departEnMasse />
+          <balise type="finish">
+            <numero>131</numero>
+            <boitier>31</boitier>
+          </balise>
+        </balises>
+        <regles>
+        </regles>
+      </epreuve>
+      <epreuve>
+        <nom>VTTO1</nom>
+        <distance>5.6</distance>
+        <denivele>130</denivele>
+        <balises>
+          <balise type="start">
+            <numero>131</numero>
+            <boitier>31</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>132</numero>
+            <boitier>32</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>133</numero>
+            <boitier>33</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>134</numero>
+            <boitier>34</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>135</numero>
+            <boitier>35</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>136</numero>
+            <boitier>36</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>137</numero>
+            <boitier>37</boitier>
+            <bonus>15</bonus>
+          </balise>
+          <balise type="finish">
+            <numero>138</numero>
+            <boitier>38</boitier>
+          </balise>
+        </balises>
+        <regles />
+      </epreuve>
+      <epreuve>
+        <nom>Trail</nom>
+        <distance>2.6</distance>
+        <denivele>125</denivele>
+        <balises>
+          <balise type="start">
+            <numero>139</numero>
+            <boitier>39</boitier>
+          </balise>
+          <balise>
+            <numero>172</numero>
+            <boitier>72</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise type="finish">
+            <numero>140</numero>
+            <boitier>40</boitier>
+          </balise>
+        </balises>
+        <regles />
+      </epreuve>
+      <ravitaillement>
+        <balises>
+          <balise type="start">
+            <numero>140</numero>
+            <boitier>40</boitier>
+          </balise>
+          <balise type="finish">
+            <numero>141</numero>
+            <boitier>41</boitier>
+          </balise>
+        </balises>
+        <regles>
+          <arretchrono>
+            <balise numero="140" type="start" />
+            <balise numero="141" type="finish" />
+          	<tempsLimite>15</tempsLimite>
+          </arretchrono>
+        </regles>
+      </ravitaillement>
+      <epreuve>
+        <nom>VTTO au score</nom>
+        <distance>9</distance>
+        <denivele>230</denivele>
+        <balises>
+          <balise type="start">
+            <numero>141</numero>
+            <boitier>41</boitier>
+          </balise>
+          <balise>
+            <numero>142</numero>
+            <boitier>42</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>143</numero>
+            <boitier>43</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>144</numero>
+            <boitier>44</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>145</numero>
+            <boitier>45</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>146</numero>
+            <boitier>46</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>147</numero>
+            <boitier>47</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>148</numero>
+            <boitier>48</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>149</numero>
+            <boitier>49</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>150</numero>
+            <boitier>50</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>178</numero>
+            <boitier>78</boitier>
+            <bonus>30</bonus>
+          </balise>
+          <balise type="finish">
+            <numero>151</numero>
+            <boitier>51</boitier>
+          </balise>
+        </balises>
+        <regles>
+          <limiteTemps>
+            <limite>75</limite>
+            <malus>5</malus>
+          </limiteTemps>
+        </regles>
+      </epreuve>
+      <epreuve>
+        <nom>VTTO 2</nom>
+        <distance>4.5</distance>
+        <denivele>50</denivele>
+        <balises>
+          <balise type="start">
+            <numero>151</numero>
+            <boitier>51</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>174</numero>
+            <boitier>74</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>175</numero>
+            <boitier>75</boitier>
+            <bonus>30</bonus>
+          </balise>
+          <balise>
+            <numero>176</numero>
+            <boitier>76</boitier>
+            <bonus>30</bonus>
+          </balise>
+          <balise type="finish">
+            <numero>152</numero>
+            <boitier>52</boitier>
+          </balise>
+        </balises>
+        <regles />
+      </epreuve>
+      <ravitaillement>
+        <balises>
+          <balise type="start">
+            <numero>152</numero>
+            <boitier>52</boitier>
+          </balise>
+          <balise type="finish">
+            <numero>153</numero>
+            <boitier>53</boitier>
+          </balise>
+        </balises>
+        <regles>
+          <arretchrono>
+            <balise numero="152" type="start" />
+            <balise numero="153" type="finish" />
+          	<tempsLimite>30</tempsLimite>
+          </arretchrono>
+        </regles>
+      </ravitaillement>
+      <epreuve>
+        <nom>VTT Grimpeur</nom>
+        <distance>2.4</distance>
+        <denivele>120</denivele>
+        <balises>
+          <balise type="start">
+            <numero>153</numero>
+            <boitier>53</boitier>
+          </balise>
+          <balise>
+            <numero>154</numero>
+            <boitier>54</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise type="finish">
+            <numero>155</numero>
+            <boitier>55</boitier>
+          </balise>
+        </balises>
+        <regles>
+          <sectionGrimpeur>
+            <balise numero="154" type="start" />
+            <balise numero="155" type="finish" />
+          </sectionGrimpeur>
+        </regles>
+      </epreuve>
+      <epreuve>
+        <nom>CO Mémo Sarbacane</nom>
+        <distance>3.6</distance>
+        <denivele>40</denivele>
+        <balises>
+          <balise type="start">
+            <numero>155</numero>
+            <boitier>55</boitier>
+          </balise>
+          <balise>
+            <numero>159</numero>
+            <boitier>59</boitier>
+          </balise>
+          <balise>
+            <numero>156</numero>
+            <boitier>56</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>157</numero>
+            <boitier>57</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>158</numero>
+            <boitier>58</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise type="finish">
+            <numero>160</numero>
+            <boitier>60</boitier>
+          </balise>
+        </balises>
+        <regles>
+          <arretchrono>
+            <balise numero="155" type="start" />
+            <balise numero="159" type="finish" />
+          </arretchrono>
+        </regles>
+      </epreuve>
+      <epreuve>
+        <nom>Roadbook</nom>
+        <distance>2.9</distance>
+        <denivele>0</denivele>
+        <balises>
+          <balise type="start">
+            <numero>160</numero>
+            <boitier>60</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>173</numero>
+            <boitier>73</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise type="finish">
+            <numero>161</numero>
+            <boitier>61</boitier>
+            <malus>30</malus>
+          </balise>
+        </balises>
+        <regles>
+          <penaliteOuvertureCarte>
+          	<malus>120</malus>          
+          </penaliteOuvertureCarte>
+        </regles>
+      </epreuve>
+      <epreuve>
+        <nom>VTT Sprinteur</nom>
+        <distance>2</distance>
+        <denivele>0</denivele>
+        <balises>
+          <balise type="start">
+            <numero>161</numero>
+            <boitier>61</boitier>
+          </balise>
+          <balise>
+            <numero>162</numero>
+            <boitier>62</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise type="finish">
+            <numero>163</numero>
+            <boitier>63</boitier>
+          </balise>
+        </balises>
+        <regles>
+          <sectionSprinteur>
+            <balise numero="161" type="start" />
+            <balise numero="162" type="finish" />
+          </sectionSprinteur>
+        </regles>
+      </epreuve>
+      <ravitaillement>
+        <balises>
+          <balise type="start">
+            <numero>163</numero>
+            <boitier>63</boitier>
+          </balise>
+          <balise type="finish">
+            <numero>164</numero>
+            <boitier>64</boitier>
+          </balise>
+        </balises>
+        <regles>
+          <arretchrono>
+            <balise numero="163" type="start" />
+            <balise numero="164" type="finish" />
+          	<tempsLimite>15</tempsLimite>
+          </arretchrono>
+        </regles>
+      </ravitaillement>
+      <epreuve>
+        <nom>VTT mémo</nom>
+        <distance>7.2</distance>
+        <denivele>180</denivele>
+        <balises>
+          <balise type="start">
+            <numero>164</numero>
+            <boitier>64</boitier>
+          </balise>
+          <balise>
+            <numero>165</numero>
+            <boitier>65</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>166</numero>
+            <boitier>66</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>167</numero>
+            <boitier>67</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>168</numero>
+            <boitier>68</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise>
+            <numero>169</numero>
+            <boitier>69</boitier>
+            <malus>30</malus>
+          </balise>
+          <balise type="finish">
+            <numero>170</numero>
+            <boitier>70</boitier>
+          </balise>
+        </balises>
+        <regles />
+      </epreuve>
+      
+      <epreuve>
+        <nom>Tir à l'arc</nom>
+        <distance>0</distance>
+        <denivele>0</denivele>
+        <balises>
+          <balise type="start">
+            <numero>170</numero>
+            <boitier>70</boitier>
+          </balise>
+          <balise type="finish">
+            <numero>171</numero>
+            <boitier>71</boitier>
+          </balise>
+        </balises>
+        <regles>
+          <arretchrono>
+            <balise numero="170" type="start" />
+            <balise numero="171" type="finish" />
+          </arretchrono>
+        </regles>
+      </epreuve>
+      
+      <epreuve>
+        <nom>Tours de pénalités</nom>
+        <distance>0</distance>
+        <denivele>0</denivele>
+        <balises>
+          <balise type="start">
+            <numero>171</numero>
+            <boitier>71</boitier>
+          </balise>
+          <arrivee />
+        </balises>
+        <regles />
+      </epreuve>
+      
+    </epreuves>
+  </circuit>
+</raid>
